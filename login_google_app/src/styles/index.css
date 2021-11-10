@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #3f3f3f;
+    font-family: sans-serif;
+}
+
+.app {
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #20e3b2;
+    font-size: 40px;
+}
+
+.group {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.btn-login {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid #646464;
+    color: #333;
+    border-radius: 9px;
+    font-weight: 700;
+    transition: all;
+    transition-duration: 200ms;
+    transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.btn-login:focus {
+    outline: none;
+}
+
+.btn-login:hover {
+    background-color: #600ff3;
+    color: #f2f2f2;
+}
